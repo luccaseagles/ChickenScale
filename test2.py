@@ -4,7 +4,7 @@ import busio
 
 i2c = busio.I2C(board.SCL, board.SDA)
 
-ADDRESS = 0x69
+ADDRESS = 0x68
 
 class MCP3422:
     def __init__(self, bits, channel, gains):
